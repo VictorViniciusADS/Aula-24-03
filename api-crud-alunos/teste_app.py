@@ -58,3 +58,7 @@ def test_excluir_aluno(client):
     # Confirma se o aluno foi excluído
     response = client.get('/alunos')
     assert len(response.json) == 0
+
+
+
+    
