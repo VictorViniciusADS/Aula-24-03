@@ -1,5 +1,5 @@
 import pytest
-from app import app, db, Aluno  # Importa sua aplicação e modelos
+from alunos import app, db, Aluno  # Importa sua aplicação e modelos
 
 @pytest.fixture
 def client():
